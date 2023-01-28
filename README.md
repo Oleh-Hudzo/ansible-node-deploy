@@ -23,7 +23,7 @@ This repository contains an Ansible playbook and necessary configurations for de
 4. Edit the `project-vars` file to include the necessary variables for your deployment.
 5. Run the playbook using the following command:
 
-`$ ansible-playbook -i hosts playbooks/deploy-node.yaml`
+`$ ansible-playbook playbooks/deploy-node.yaml`
 
 This will run the playbook and deploy the Node.js web application on the remote server. The web application will be available on the server's IP or hostname on port 3000 by default.
 You can customize the deployment process by modifying the variables in the project-vars file and re-running the playbook.
